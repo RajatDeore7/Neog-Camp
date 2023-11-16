@@ -50,8 +50,14 @@ var readlinesync = require('readline-sync');
 // answers("Are you there ? ","yes");
 // console.log("Your score is "+ score);
 
-// for loops
-var n = readlinesync.question("Enter the total number of questions ");
-for (let i = 0; i < n; i++) {
-    console.log("RAJAT");
+// // for loops
+// var n = readlinesync.question("Enter the total number of questions ");
+// for (let i = 0; i < n; i++) {
+//     console.log("RAJAT");
+// }
+
+// arrays
+var list = ["wheat","rice","sugar","salt","tea powder"];
+for (let i = 0; i < list.length; i++) {
+    console.log(list[i]);
 }

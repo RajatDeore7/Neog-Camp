@@ -35,16 +35,23 @@ var readlinesync = require('readline-sync');
 
 // console.log(addtwonumbers(5,2));
 
-//parameterized func
-var score = 0;
-function answers(question,answers){
-    var que1 = readlinesync.question(question);
-    if (que1==answers) {
-        score+=1;
-    }else{
-        score -=1;
-    }
-    return score;
-}
- console.log(answers("Are you ok ? ","yes"));
+// //parameterized func
+// var score = 0;
+// function answers(question,answers){
+//     var res = readlinesync.question(question);
+//     if (res==answers) {
+//         score+=1;
+//     }else{
+//         score -=1;
+//     }
+//     return score;
+// }
+// answers("Are you ok ? ","yes");
+// answers("Are you there ? ","yes");
+// console.log("Your score is "+ score);
 
+// for loops
+var n = readlinesync.question("Enter the total number of questions ");
+for (let i = 0; i < n; i++) {
+    console.log("RAJAT");
+}

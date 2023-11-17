@@ -56,8 +56,39 @@ var readlinesync = require('readline-sync');
 //     console.log("RAJAT");
 // }
 
-// arrays
-var list = ["wheat","rice","sugar","salt","tea powder"];
-for (let i = 0; i < list.length; i++) {
-    console.log(list[i]);
+// // arrays
+// var list = ["wheat","rice","sugar","salt","tea powder"];
+// for (let i = 0; i < list.length; i++) {
+//     console.log(list[i]);
+// }
+
+// objects
+var Person1 = {
+    name : "Rajat",
+    age : 21,
+    colour : "Skin Colour"
+}
+
+var Person2 = {
+    name : "Raja",
+    age : 20,
+    colour : "Dark"
+}
+
+console.log(Person1.age);
+console.log(Person2.age);
+
+console.log(Person1.age>Person2.age);
+
+var res = Person1.age > Person2.age;
+if (res==true) {
+    console.log("Person 1 Wins");
+}else{
+    console.log("Person 2 Wins");
+}
+
+var personarr = [Person1,Person2];
+
+for (let i = 0; i < personarr.length; i++) {
+    console.log(personarr[i].name , personarr[i].colour);
 }

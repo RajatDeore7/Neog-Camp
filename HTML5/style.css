@@ -1,11 +1,5 @@
-body {
-    color: chocolate;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-.heading {
-    color: blueviolet;
-}
-
-#headingid {
-    color: blue;
+body{
+    font-family: 'Open Sans', sans-serif;
 }

@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root{
+    --primary-color: red;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+/* container */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 500px;
+    margin: auto;
+}
+
+/* links */
+.primary-color{
+    color: var(--primary-color);
 }

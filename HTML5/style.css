@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #8b5cf6;
+    --off-white : #e2e8f0;
 }
 
 body{
@@ -88,4 +89,17 @@ hr{
 
 .hero .hero-heading{
     color: #737373;
+}
+
+/* section */
+.section{
+    padding: 2rem;
+}
+
+.section h3{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
 }

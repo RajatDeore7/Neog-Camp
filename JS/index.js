@@ -3,7 +3,17 @@
 // alert(welcomemsg); 
 
 var btnTranslate = document.querySelector("#btn-translate");
-console.log(btnTranslate);
-btnTranslate.addEventListener("click", function clickEventHandler(){
+
+var txtinput = document.getElementById("txt-input");
+
+btnTranslate.addEventListener("click",clickHandler);
+
+function clickHandler(){
     console.log("clicked");
-})
+    console.log("Input is "+ txtinput.value);
+}
+
+var x = 0;
+function counter(){
+    console.log(x++);
+}
